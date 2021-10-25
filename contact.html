@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/tab_icon.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/band_logo.png" alt="Insert band logo"></a>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="news.html">News</a> |
+        <a href="dates.html">Tour Dates</a> |
+        <a href="band.html">The Band</a> |
+        <a href="contact.html" class="selected">Contact</a> |
+    </nav>
+    <h1>Contact</h1>
+    <section class="contactForm">
+        <form>
+            <div>
+                <label>Full Name: </label>
+                <input type="text" id="name" name="fullName" placeholder="Your name.." required>
+            </div>
+            <div>
+                <label>Subject: </label>
+                <select name="subject" id="subject">
+                    <option value="1">Fan letter</option>
+                    <option value="2">Begging for free tickets</option>
+                    <option value="3">Legal inquiries</option>
+                    <option value="4">Etc.</option>
+                </select>
+            </div>
+            <div>
+                <label>Subscribe to newsletter? </label>
+                <input type="checkbox" name="newsSub" id="newsSub" required>
+            </div>
+            <div>
+                <label>Write us a letter: </label>
+                <textarea name="letter" id="letter" cols="30" rows="10" required></textarea>
+            </div>
+            <input type="reset" value="Clear form">
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <div>
+            <img src="images/band_logo.png" width="200px" alt="Insert band logo">
+        </div>
+        <a href="https://twitter.com/gorillaz?s=20" target="_blank">Twitter</a>
+    </footer>
+
+</body>
+</html>
