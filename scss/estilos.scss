@@ -1,0 +1,116 @@
+.myDiv {
+	border: 5px outset black;
+	background-color: lightcyan;
+	text-align: center;
+	width: 200px;
+	height: 350px;
+	transition: all 1s;
+	overflow: hidden;
+	&:hover {
+		transform-origin: top;
+		width: 1.5;
+		height: max-content;
+		padding: 10px;
+	}
+}
+.newsText {
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newsText--title{
+    font-weight: bold;
+}
+.newsThumbnail {
+	border: 1px solid black;
+	border-radius: 4px;
+	width: 150px;
+}
+.selected {
+	font-style: italic;
+	color: green;
+}
+.contactForm {
+	border: 5px outset black;
+	background-image: linear-gradient(to right, steelblue,lightsteelblue);
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 24px;
+}
+.tourDatesList {
+	border-radius: 4px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgray;
+	font-size: 24px;
+	list-style-position: inside;
+	list-style: square inside url("/BandPage_Boccardo/images/calendar_icon.png");
+	padding: 5px;
+}
+ul {
+	.tourDatesList {
+		background-color: lightseagreen;
+	}
+}
+.flexContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.itemHeader {
+	grid-area: header;
+}
+.itemFooter {
+	grid-area: footer;
+}
+.itemNews {
+	grid-area: news;
+}
+.itemMusic {
+	grid-area: music;
+}
+nav {
+	font-size: 32px;
+	font-family: 'Metal Mania', cursive;
+	font-weight: bold;
+	text-align: center;
+}
+h1 {
+	font-size: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+header {
+	text-align: center;
+}
+section {
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (min-width:500px) {
+	.gridContainer {
+		display: grid;
+		grid-template-areas: 'header' 'news' 'music' 'footer';
+		text-align: center;
+		align-items: center;
+		grid-gap: 10px;
+		padding: 10px;
+	}
+}
+@media only screen and (min-width:1024px) {
+	.gridContainer {
+		display: grid;
+		grid-template-areas: 'header header header header' 'news news music music' 'footer footer footer footer';
+		text-align: center;
+		align-items: center;
+		grid-gap: 10px;
+		padding: 10px;
+	}
+}
