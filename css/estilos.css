@@ -24,10 +24,6 @@
   border-radius: 4px;
   width: 150px; }
 
-.selected {
-  font-style: italic;
-  color: green; }
-
 .contactForm {
   border: 5px outset black;
   background-image: linear-gradient(to right, steelblue, lightsteelblue);
@@ -42,9 +38,10 @@
   margin-right: auto;
   background-color: lightgray;
   font-size: 24px;
-  list-style-position: inside;
-  list-style: square inside url("/BandPage_Boccardo/images/calendar_icon.png");
   padding: 5px; }
+
+.tourDatesList--location {
+  color: darkorange; }
 
 ul .tourDatesList {
   background-color: lightseagreen; }
@@ -67,11 +64,15 @@ ul .tourDatesList {
 .itemMusic {
   grid-area: music; }
 
-nav {
+.navBar {
   font-size: 32px;
   font-family: 'Metal Mania', cursive;
   font-weight: bold;
   text-align: center; }
+
+.navBar--selected {
+  font-style: italic;
+  color: green; }
 
 h1 {
   font-size: 32px;
