@@ -1,4 +1,12 @@
+@mixin defaultFont {
+	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+$boldBorder: 4px;
+
 .myDiv {
+	@include defaultFont();
 	border: 5px outset black;
 	background-color: lightcyan;
 	text-align: center;
@@ -14,31 +22,29 @@
 	}
 }
 .newsText {
-	font-size: 16px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	@include defaultFont()
 }
 .newsText--title{
     font-weight: bold;
 }
 .newsThumbnail {
 	border: 1px solid black;
-	border-radius: 4px;
+	border-radius: $boldBorder;
 	width: 150px;
 }
 .contactForm {
+	@include defaultFont();
 	border: 5px outset black;
 	background-image: linear-gradient(to right, steelblue,lightsteelblue);
 	text-align: center;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 24px;
 }
 .tourDatesList {
-	border-radius: 4px;
+	@include defaultFont();
+	border-radius: $boldBorder;
 	text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: lightgray;
-	font-size: 24px;
 	padding: 5px;
 }
 .tourDatesList--location{
