@@ -1,0 +1,25 @@
+Nombre del proyecto: Band Page
+Duración: 60 días
+
+Servicios:
+	Diseño del sitio.	34.000 AR$
+	Desarrollo del sitio.	102.000 AR$
+	SEO Simple.		17.000 AR$
+	Capacitación.		17.000 AR$
+
+	Total			170.000 AR$
+
+	Mantenimiento.		530 AR$/hr
+
+Detalles de los Servicios:
+
+El diseño del sitio se llevara a cabo en desktop y mobile, mediante reuniones e iteraciones con el cliente para llegar al diseño de framework deseado.
+
+El desarrollo del mismo incluye la creación de las paginas diseñadas junto con sus funcionalidades.
+
+SEO Simple incluye la implementación de Google Analytics, asi como la optimización para los sitios de busqueda.
+
+Finalmente, se capacitará al cliente sobre la subida de información para actualizar los contenidos de su pagina. Si en el futuro se desea agregar nuevas actualizaciones, paginas y/o cambios, queda abierta la posibilidad de contratar mantenimiento al valor indicado.
+En caso de que los cambios sean muy grandes, se puede optar por generar un nuevo presupuesto.
+
+

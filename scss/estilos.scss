@@ -5,6 +5,10 @@
 
 $boldBorder: 4px;
 
+.carousel .img-responsive {
+	width:100%;
+}
+
 .myDiv {
 	@include defaultFont();
 	border: 5px outset black;
