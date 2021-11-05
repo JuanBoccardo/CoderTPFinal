@@ -8,14 +8,13 @@
   background-color: lightcyan;
   text-align: center;
   width: 200px;
-  height: 350px;
-  transition: all 1s;
+  max-height: 350px;
+  height: auto;
+  transition: max-height 1s ease-in;
   overflow: hidden; }
   .myDiv:hover {
     transform-origin: top;
-    width: 1.5;
-    height: max-content;
-    padding: 10px; }
+    max-height: 1000px; }
 
 .newsText {
   font-size: 18px;
